@@ -1,0 +1,13 @@
+TripMate - travel planning agent. Try: 'Plan 2 days in Udaipur next weekend'.
+Commands: /plan <request>, /outage <service|off>, /reset, /quit
+
+You: How much is 2,000 UAE dirhams in Indian rupees?
+  tool 1. convert_currency({"amount": 2000, "from_currency": "AED", "to_currency": "INR"}) -> ok
+
+TripMate: 2,000 UAE dirhams (AED) is equivalent to approximately **52,297.73 Indian rupees (INR)** (at an exchange rate of 1 AED = 26.15 INR).
+
+*Sources & caveats: Currency conversion is based on today's reference rate (September 17, 2026) provided by ExchangeRate-API open access.*
+
+  [2 model calls, 4232 tokens, 60.22s]
+
+You: 
