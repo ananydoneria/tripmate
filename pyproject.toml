@@ -1,0 +1,10 @@
+[project]
+name = "tripmate"
+version = "1.0.0"
+description = "TripMate: a tool-augmented travel-planning agent built with LangChain and Gemini"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

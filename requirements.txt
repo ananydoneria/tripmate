@@ -1,0 +1,13 @@
+langchain>=1.4,<2
+langchain-core>=1.6,<2
+langchain-google-genai>=4.4,<5
+langgraph>=1.2,<2
+pydantic>=2.10
+requests>=2.32
+python-dotenv>=1.0
+streamlit>=1.40
+pytest>=8.0
+# notebook
+ipykernel
+nbformat
+nbconvert
